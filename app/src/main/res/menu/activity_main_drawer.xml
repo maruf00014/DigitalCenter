@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_officers"
+            android:icon="@drawable/nav_officer_icon"
+            android:title="Officers" />
+
+        <item
+            android:id="@+id/nav_websites"
+            android:icon="@drawable/nav_web_icon"
+            android:title="Websites" />
+        <item
+            android:id="@+id/nav_hotlines"
+            android:icon="@drawable/nav_hot_icon"
+            android:title="Hotlines" />
+    </group>
+
+</menu>
