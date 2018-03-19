@@ -31,8 +31,7 @@
 
         <ImageView
             android:id="@+id/officers_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/imageIconStyle"
             android:src="@drawable/officers_icon" />
 
         <TextView
@@ -61,8 +60,7 @@
 
         <ImageView
             android:id="@+id/websites_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/imageIconStyle"
             android:src="@drawable/websites_icon" />
 
         <TextView
@@ -93,8 +91,7 @@
 
         <ImageView
             android:id="@+id/hotline_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/imageIconStyle"
             android:src="@drawable/hotlines_icon" />
 
         <TextView
