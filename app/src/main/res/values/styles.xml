@@ -20,7 +20,8 @@
 
     <style name="Toolbar.TitleText"
         parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="android:textSize">22sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
 
     </style>
 
@@ -37,21 +38,15 @@
 
 <style name="iconTextStyle" parent="Theme.AppCompat.Light">
 
-<!-- navigation icon color -->
 <item name="android:textColor">@color/colorPrimary</item>
-
-<!-- color of the menu overflow icon -->
-<item name="android:textSize">18sp</item>
-    <item name="android:textStyle">bold</item>
-
-
+<item name="android:textSize">14sp</item>
 </style>
 
     <style name="imageIconStyle" parent="Theme.AppCompat.Light">
 
 
-        <item name="android:layout_width">100dp</item>
-        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
 
 
     </style>

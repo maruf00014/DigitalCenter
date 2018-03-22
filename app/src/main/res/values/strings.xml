@@ -1,8 +1,47 @@
-<resources>
-    <string name="app_name">Digital Center</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ডিজিটাল সেন্টার</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="officers">কর্মকর্তা</string>
+    <string name="website">ওয়েবসাইট</string>
+    <string name="hotline">হটলাইন</string>
+
+    <!--কর্মকর্তা-->
+    <string name="a2i">এটুআই</string>
+    <string name="zela_prosasok">জেলা প্রশাসক</string>
+    <string name="upozela_nirbahi">উপজেলা নির্বাহী</string>
+    <string name="sohokari_comi">সহঃ কমিশনার</string>
+    <string name="union_vomi">ইউনিয়ন সহকারি</string>
+    <string name="up_chair">ইউপি চেয়ারম্যান</string>
+    <string name="up_sochib">ইউপি সচিব</string>
+    <string name="uddokta_male">পুরুষ উদ্যোক্তা</string>
+    <string name="uddokta_female">মহিলা উদ্যোক্তা</string>
+    <string name="oc">ওসি</string>
+    <string name="kazi">কাজি</string>
+    <string name="haspatal">হাসপাতাল</string>
+    <string name="fire_service">ফায়ার সার্ভিস</string>
+    <string name="madok">মাদক দ্রব্য</string>
+
+    <!--ওয়েবসাইট-->
+
+    <string name="porcha">পর্চার আবেদন</string>
+    <string name="totho">তথ্য আপলোড</string>
+    <string name="uisc">ইউআইএসসিব্লগ</string>
+    <string name="eksheba">এক সেবা</string>
+    <string name="jonmo">জন্ম নিবন্ধন</string>
+    <string name="inamjari">ইনামজারি</string>
+
+    <!--হটলাইন-->
+    <string name="sorkari_seba">সরকারি সেবা</string>
+    <string name="ballo_bibaho">বাল্য বিবাহ</string>
+    <string name="nari_nirjaton">নারী ও শিশুনির্যাতন</string>
+    <string name="dorjok">দূর্যোগ ও আবহাওয়া</string>
+    <string name="national_emergency">ন্যাশনাল ইমারজেন্সি</string>
+
+
+
 </resources>

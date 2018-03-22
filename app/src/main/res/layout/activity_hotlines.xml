@@ -1,9 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wintelbd.digitalcenter.HotlinesActivity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_image">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/hot_toolbar"
+        app:theme="@style/ThemeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/colorPrimaryDark"
+        app:titleTextAppearance="@style/Toolbar.TitleText"/>
+<LinearLayout
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wintelbd.digitalcenter.HotlinesActivity">
+    android:orientation="vertical"
+    android:layout_marginTop="32dp">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/imageIconStyle"
+                android:id="@+id/sorkari_seba"
+                android:src="@drawable/gov_icon" />
+
+            <TextView
+                style="@style/iconTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sorkari_seba" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/imageIconStyle"
+                android:id="@+id/ballo_bibaho"
+                android:src="@drawable/cm_icon" />
+
+            <TextView
+                style="@style/iconTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ballo_bibaho" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- one end -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/imageIconStyle"
+                android:id="@+id/nari_nirjaton"
+                android:src="@drawable/oga_icon" />
+
+            <TextView
+                style="@style/iconTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nari_nirjaton" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/imageIconStyle"
+                android:id="@+id/dorjok"
+                android:src="@drawable/wd_icon" />
+
+            <TextView
+                style="@style/iconTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dorjok" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- two end -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/imageIconStyle"
+                android:id="@+id/national_emergency"
+                android:src="@drawable/nes_icon" />
+
+            <TextView
+                style="@style/iconTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/national_emergency" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- 3 end -->
+
+    </LinearLayout>
+</LinearLayout>

@@ -21,7 +21,8 @@ public class LunchScreen extends AppCompatActivity {
             @Override
             public  void run(){
 
-                Intent goToMain = new Intent(LunchScreen.this, MainActivity.class);
+                Intent goToMain = new
+                        Intent(LunchScreen.this, MainActivity.class);
                 startActivity(goToMain);
                 finish();
             }

@@ -31,14 +31,16 @@
 
         <ImageView
             android:id="@+id/officers_image"
-            style="@style/imageIconStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@drawable/officers_icon" />
 
         <TextView
             style="@style/iconTextStyle"
+            android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Officers" />
+            android:text="@string/officers" />
 
     </LinearLayout>
 
@@ -60,14 +62,16 @@
 
         <ImageView
             android:id="@+id/websites_image"
-            style="@style/imageIconStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@drawable/websites_icon" />
 
         <TextView
             style="@style/iconTextStyle"
+            android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Websites" />
+            android:text="@string/website" />
 
     </LinearLayout>
 
@@ -91,14 +95,16 @@
 
         <ImageView
             android:id="@+id/hotline_image"
-            style="@style/imageIconStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@drawable/hotlines_icon" />
 
         <TextView
             style="@style/iconTextStyle"
+            android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hotlines" />
+            android:text="@string/hotline" />
 
     </LinearLayout>
 

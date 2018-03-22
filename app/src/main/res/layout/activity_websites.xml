@@ -1,9 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.wintelbd.digitalcenter.WebsitesActivity">
+    tools:context="com.wintelbd.digitalcenter.WebsitesActivity"
+    android:background="@drawable/background_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/web_toolbar"
+        app:theme="@style/ThemeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/colorPrimaryDark"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        android:layout_marginBottom="32dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageIconStyle"
+                    android:id="@+id/porchar_abedon"
+                    android:src="@drawable/pa_icon" />
+
+                <TextView
+                    style="@style/iconTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/porcha" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageIconStyle"
+                    android:id="@+id/totho_upload"
+                    android:src="@drawable/udc_icon" />
+
+                <TextView
+                    style="@style/iconTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/totho" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- one end -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageIconStyle"
+                    android:id="@+id/uisc"
+                    android:src="@drawable/uisc_icon" />
+
+                <TextView
+                    style="@style/iconTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uisc" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageIconStyle"
+                    android:id="@+id/eksheba"
+                    android:src="@drawable/akseba_icon" />
+
+                <TextView
+                    style="@style/iconTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eksheba" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- two end -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageIconStyle"
+                    android:id="@+id/jonmo_nibondhon"
+                    android:src="@drawable/br_icon" />
+
+                <TextView
+                    style="@style/iconTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jonmo" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageIconStyle"
+                    android:id="@+id/inamjarir_abedon"
+                    android:src="@drawable/land_icon" />
+
+                <TextView
+                    style="@style/iconTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inamjari" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <!-- 3 end -->
+
+    </LinearLayout>
+
+
+</LinearLayout>
