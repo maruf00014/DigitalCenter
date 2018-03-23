@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 public class WebsitesActivity extends AppCompatActivity {
@@ -25,6 +27,8 @@ public class WebsitesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent browserIntent = new
                         Intent(Intent.ACTION_VIEW, Uri.parse("http://uams.e-service.gov.bd"));
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                porcharAbedon.startAnimation(animFadein);
                 startActivity(browserIntent);
             }
         });
@@ -36,6 +40,8 @@ public class WebsitesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent browserIntent = new
                         Intent(Intent.ACTION_VIEW, Uri.parse("http://dcms.e-service.gov.bd"));
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                tothoUpload.startAnimation(animFadein);
                 startActivity(browserIntent);
             }
         });
@@ -47,6 +53,8 @@ public class WebsitesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent browserIntent = new
                         Intent(Intent.ACTION_VIEW, Uri.parse("http://uiscbd.ning.com"));
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                uiscbd.startAnimation(animFadein);
                 startActivity(browserIntent);
             }
         });
@@ -58,6 +66,8 @@ public class WebsitesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent browserIntent = new
                         Intent(Intent.ACTION_VIEW, Uri.parse("http://eksheba.gov.bd"));
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                eksheba.startAnimation(animFadein);
                 startActivity(browserIntent);
             }
         });
@@ -68,6 +78,8 @@ public class WebsitesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent browserIntent = new
                         Intent(Intent.ACTION_VIEW, Uri.parse("http://br.lgd.gov.bd"));
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                jonmoNibondhon.startAnimation(animFadein);
                 startActivity(browserIntent);
             }
         });
@@ -79,6 +91,8 @@ public class WebsitesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent browserIntent = new
                         Intent(Intent.ACTION_VIEW, Uri.parse("http://land.gov.bd"));
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                inamjari.startAnimation(animFadein);
                 startActivity(browserIntent);
             }
         });

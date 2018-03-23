@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 public class HotlinesActivity extends AppCompatActivity {
@@ -30,6 +32,8 @@ public class HotlinesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                sorkariSheba.startAnimation(animFadein);
                 intent.setData(Uri.parse("tel:333"));
 
                 if (checkPermission()) {
@@ -49,6 +53,8 @@ public class HotlinesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                balloBibaho.startAnimation(animFadein);
                 intent.setData(Uri.parse("tel:*16100"+Uri.encode("#")));
 
                 if (checkPermission()) {
@@ -68,6 +74,8 @@ public class HotlinesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                nariNirjaton.startAnimation(animFadein);
                 intent.setData(Uri.parse("tel:1098"));
 
                 if (checkPermission()) {
@@ -86,6 +94,8 @@ public class HotlinesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                dorjog.startAnimation(animFadein);
                 intent.setData(Uri.parse("tel:1090"));
 
                 if (checkPermission()) {
@@ -105,6 +115,8 @@ public class HotlinesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
+                Animation animFadein = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+                nationalEmergency.startAnimation(animFadein);
                 intent.setData(Uri.parse("tel:999"));
 
                 if (checkPermission()) {

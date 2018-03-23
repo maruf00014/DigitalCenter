@@ -43,6 +43,11 @@
             android:label="@string/hotline"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".kormokorta.A2i"
+            android:label="@string/a2i"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
